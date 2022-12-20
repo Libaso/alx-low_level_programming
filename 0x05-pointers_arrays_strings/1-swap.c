@@ -5,7 +5,7 @@
  * @a: into a
  * @b: into b
  */
-void swaps_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int q;
 
