@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-
 /**
  * print_array - prints n elements of array
  * @a: array
@@ -18,4 +17,3 @@ void print_array(int *a; int n)
 			printf(", ");
 	}
 		print("\n");
-}
