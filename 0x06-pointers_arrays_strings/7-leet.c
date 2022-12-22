@@ -2,9 +2,8 @@
 
 /**
  * leet - encodes a string to 1337
- * @str: the string to be encoded
  * @n: input value
- * Return: a pointer to the encoded string
+ * Return: the value of n
  */
 char *leet(char *n)
 {
