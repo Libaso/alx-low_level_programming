@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - print numbers chars
+ * print_number - print numbers chars
  * @n: integer params
  * Return: 0
  */
+
 void print_number(int n)
 {
 	unsigned int n1;
@@ -20,4 +21,6 @@ void print_number(int n)
 		print_number(n1 / 10);
 	}
 	_putchar((n1 % 10) + '0');
+	
+	return (0);
 }
