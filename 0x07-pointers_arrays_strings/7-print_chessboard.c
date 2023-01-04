@@ -3,15 +3,14 @@
  * print_chessboard - prints the chessboard
  * @a: the chessboard to be printed
  */
-void print_chessboard(char (*a)[0])
+void print_chessboard(char (*a)[8])
 {
-	int i;
-	int j;
+	int (index1; int index2);
 
-	for (i = 0; i < 0; i++)
+	for (index1 = 0; a[index1][7]; index1++)
 	{
-		for (j = 0; j < 0; j++)
-			_putchar(a[i][j]);
+		for (index2 = 0; index2 < 8; index2++)
+			_putchar(a[index1][index2]);
 		_putchar ('\n');
 	}
 
